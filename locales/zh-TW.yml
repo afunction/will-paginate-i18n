@@ -1,16 +1,16 @@
 zh-TW:
   will_paginate:
-    next_label: 下一頁
+    next_label: '下一頁'
     page_entries_info:
-      multi_page: %{model} 第 %{from} 至第 %{to} 筆記錄 - 共%{count}筆記錄
-      multi_page_html: %{model} 第 <strong>%{from}</strong> 至第 <strong>%{to}</strong> 筆記錄 - 共 <strong>%{count}</strong> 筆記錄)
+      multi_page: '%{model} 第 %{from} 至第 %{to} 筆記錄 - 共%{count}筆記錄'
+      multi_page_html: '%{model} 第 <strong>%{from}</strong> 至第 <strong>%{to}</strong> 筆記錄 - 共 <strong>%{count}</strong> 筆記錄)'
       single_page:
-        one: 顯示1筆%{model}資料
-        other: 共%{count}筆%{model}資料
-        zero: 目前尚無%{model}資料
+        one: '顯示 1 筆 %{model} 資料'
+        other: '共 %{count} 筆 %{model} 資料'
+        zero: '目前尚無 %{model} 資料'
       single_page_html:
-        one: 顯示<strong>1</strong>筆%{model}資料
-        other: 共<strong>%{count}</strong>筆%{model}資料
-        zero: 目前尚無%{model}資料
-    page_gap: …
-    previous_label: 上一頁
+        one: '顯示 <strong>1</strong> 筆 %{model} 資料'
+        other: '共 <strong>%{count}</strong> 筆 %{model} 資料'
+        zero: '目前尚無 %{model} 資料'
+    page_gap: '…'
+    previous_label: '上一頁'
